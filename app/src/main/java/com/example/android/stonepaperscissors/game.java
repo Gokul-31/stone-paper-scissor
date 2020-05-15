@@ -42,7 +42,7 @@ public class game extends AppCompatActivity {
     private ImageView stone;
     private Bitmap bm1;
     private Bitmap scaledBm1;
-    private ConstraintLayout stoneLayout;
+    private LinearLayout stoneLayout;
     private int bmWidth;
     private int bmHeight;
 
@@ -95,7 +95,7 @@ public class game extends AppCompatActivity {
         BitmapDrawable result1= new BitmapDrawable(scaledBm1);
         stone.setImageDrawable(result1);
 
-        ConstraintLayout.LayoutParams params=(ConstraintLayout.LayoutParams) stone.getLayoutParams();
+        LinearLayout.LayoutParams params=(LinearLayout.LayoutParams) stone.getLayoutParams();
         params.width=bmWidth;
         params.height=bmHeight;
         stone.setLayoutParams(params);
