@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stone,Paper,Scissors</string>
+    <string name="title">Stone,Paper,Scissors</string>
+    <string name="enter_names">Enter names:</string>
+    <string name="player1">Player1</string>
+    <string name="player2">Player2</string>
+    <string name="Go">Go</string>
+    <string name="round_num">Enter number of rounds</string>
+    <string name="turns">TURN:</string>
+    <string name="player">player</string>
+    <string name="exit">Exit</string>
+    <string name="round">Round:</string>
+    <string name="one">1</string>
+    <!--    <string name="player">Player</string>-->
+    <string name="start">Start!!</string>
+    <string name="update">2update</string>
+    <string name="select_1_of_the_below">Select any 1 from the below</string>
+    <string name="nothing">nothing</string>
+    <!--    <string name="win">Winner:</string>-->
+        <string name="tie">Its a Tie</string>
+</resources>
